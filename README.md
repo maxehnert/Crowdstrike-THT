@@ -1,3 +1,28 @@
+## Submission Notes
+
+* Created the Table and Header components to function as described in the requirements listed in Notes.md
+
+* React is the only library used for the project as the requirements requested minimal support. React with CRA, was chosen to speed up the time I could allocate to implementing the requested featues. Although React is not used by your company, similar coding practices exists across both. 
+
+* CSS is located in the index.css file. Minimal CSS was needed for this project so it is all contained in a single file.
+
+* Components were created to allow for easier additions and changes.
+
+* State is managed at different levels of components, event handlers are implemented in the components they are used within, and state lifted through callbacks.
+
+* I mocked a Promise to make the data request look more realistic, added notes around that in dashboard.jsx. It is easier to add in a btn or similar for fetching data now.
+
+* Minimal TypeScript used. Short timeline project so only the response data has an Interface.
+
+* Added a few tests around rendering the dashboard as a whole and the Header component. Again, short timeline project so displaying basic functionality there that can be extended later.
+
+* Code syntax formatting was applied with the VS Code built-in formatter "Prettier".
+
+
+### Included below are the provided notes on running a CRA project
+
+----
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -29,18 +54,3 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
